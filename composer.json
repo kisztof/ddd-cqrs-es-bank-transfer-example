@@ -1,0 +1,28 @@
+{
+    "name": "kisztof/ddd-cqrs-es-bank-transfer-example",
+    "autoload": {
+        "psr-4": {
+            "Kisztof\\BankTransferExample\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kisztof\\BankTransferExample\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Krzysztof Słomka",
+            "email": "kisztof@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "ramsey/uuid": "^4.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}
